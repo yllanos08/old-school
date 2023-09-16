@@ -1,0 +1,158 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+    margin: 0px;
+    padding: 0px;
+ 
+ }
+ 
+ body {
+  background-color: #094348;
+  font-family: "VT323", monospace;
+  color: #f8f8ef;
+  text-align: center;
+ }
+ 
+ 
+ main{
+   margin-left: 5px;
+ }
+ /* STYLE TEXT */
+ 
+ 
+ a{
+    color: #f8f8ef;
+ }
+ h1 {
+   color: #f8f8ef;
+   font-family: 'Source Code Pro', monospace;
+   font-weight: 100;
+   font-size: 100px;
+   background-color: rgb(33, 67, 77);
+   padding-bottom: 50px;
+   padding-top: 50px;
+   padding-right: 50px;
+   
+ }
+ 
+ h3{
+   font-size: 60px;
+   font-family: 'Source Code Pro', monospace;
+   margin-top: 5px;
+   margin-bottom: 10px;
+   margin-left: 0px;
+   color: #B6F1F6;
+ }
+ 
+ p{
+   font-size: 30px;
+   margin-bottom: 20px;
+ }
+ 
+ #problemText{
+   margin-left: 15%;
+   margin-right: 15%;
+ }
+ 
+ 
+ /* LEARN MORE */
+ .learnParagraph{
+ margin-left: 25%;
+ margin-right: 25%;
+ }
+ .learnHeader{
+   margin-top: 50px;
+   text-align: center;
+ }
+ #streamers{  
+   font-size: 60px;
+   margin-top: 10px;
+   margin-bottom: 2em;
+ }
+ 
+ 
+ /* ARTICLE PAGE ARTICLE PAGE ARTICLE PAGE */
+ .articleClass{
+   margin-left: 25%;
+   margin-right: 25%;
+ }
+ #article{
+   font-size: 60px;
+   margin-top: 10px;
+ }
+ 
+  /* STYLE IMAGES */
+ 
+  /* FLEXBOX FLEXBOX FLEXBOX FLEXBOX */
+ .flexContainer{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrwap;
+   align-items: baseline;
+ }
+ .flexItem{
+   flex-basis: 100%;
+   margin: 1%
+ } 
+ img{
+   width: 100%;
+   border: solid white 4px;
+ }
+ @media screen and (max-width: 850px){
+   .flexContainer{
+     flex-wrap: wrap;
+   }
+ }
+ /* NAV BAR NAV BAR NAV BAR  */
+ nav {
+   color: #f8f8ef;
+   text-align: center;
+   background-color: rgb(1, 39, 46);
+   font-size: 30px;
+   margin-bottom: 10px;
+   font-family: "VT323", monospace;
+ }
+ ul {
+   list-style-type: none;
+   overflow: hidden;
+   padding: 20px;
+ }
+ li {
+   display: inline;
+ }
+ li a {
+   text-decoration: none;
+   padding: 10px;
+   color: #f8f8ef;
+ }
+ li a:hover {
+   background-color: rgb(1, 23, 29);
+ }
+ 
+ 
+ 
+ /* BUTTON BUTTON BUTTON */
+ #articleButton{
+   width: 200px;
+   height: 100px;
+   font-family: "VT323", monospace;
+   font-size: 40px;
+   color: #f8f8ef;
+   background-color:rgb(0, 35, 46);
+   border: solid white 2px;
+   margin-top: 10px;
+   border-radius: 10%;
+ }
+ 
+ 
+ #streamerButton{
+   width: 200px;
+   height: 100px;
+   font-family: "VT323", monospace;
+   font-size: 40px;
+   color: #f8f8ef;
+   background-color:rgb(0, 35, 46);
+   border: solid white 2px;
+   margin-top: 10px;
+   border-radius: 10%;
+ }
+ /* ADD MORE! */
